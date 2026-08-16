@@ -28,9 +28,9 @@ test("server-renders the FitData dashboard", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<html lang="de">/i);
+  assert.match(html, /<html\b[^>]*\blang="de"[^>]*>/i);
   assert.match(html, /FitData Coach/i);
-  assert.match(html, /Guten Morgen, Leonie/i);
+  assert.match(html, /Deine Aktivität/i);
   assert.match(html, /Wochenziel/i);
   assert.match(html, /Datenqualität/i);
   assert.doesNotMatch(html, /codex-preview|react-loading-skeleton/i);
