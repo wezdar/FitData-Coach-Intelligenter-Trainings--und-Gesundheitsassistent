@@ -64,5 +64,4 @@ next-env.d.ts
 .agents/
 .claude/
 .codex/
-.openai/
 .mcp.json
