@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: fct_daily_activity
+    description: "Daily activity serving grain: one row per user and local calendar date."
+    columns:
+      - name: user_id
+        tests: [not_null]
+      - name: activity_date
+        tests: [not_null]
+      - name: steps
+        tests: [not_null]
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [user_id, activity_date]
+  - name: fct_weekly_progress
+    description: Weekly activity and adherence aggregates.
+    columns:
+      - name: week_start
+        tests: [not_null]
+      - name: average_steps_adherence_percent
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 0 and 100"
+  - name: dim_latest_weight
+    columns:
+      - name: user_id
+        tests: [unique, not_null]
+      - name: weight_kg
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 30 and 350"

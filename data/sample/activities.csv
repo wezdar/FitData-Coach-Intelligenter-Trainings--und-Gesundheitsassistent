@@ -1,0 +1,11 @@
+activity_id,timestamp,activity_type,steps,distance,distance_unit,duration_min,calories_kcal,source
+act-20260808-steps,2026-08-08T20:00:00+02:00,steps,8840,6.54,km,82,412,synthetic_demo
+act-20260809-run,2026-08-09T07:14:00+02:00,run,7124,5.20,km,34,389,synthetic_demo
+act-20260810-workout,2026-08-10T18:05:00+02:00,workout,1830,1.31,km,52,421,synthetic_demo
+act-20260811-walk,2026-08-11T12:20:00+02:00,walk,11280,8.35,km,106,518,synthetic_demo
+act-20260812-workout,2026-08-12T07:02:00+02:00,workout,2240,1.66,km,55,447,synthetic_demo
+act-20260813-steps,2026-08-13T20:00:00+02:00,steps,9360,6.93,km,89,466,synthetic_demo
+act-20260814-run,2026-08-14T18:10:00+02:00,run,8420,6.20,km,38,492,synthetic_demo
+act-20260815-steps,2026-08-15T08:00:00+02:00,steps,6842,5.06,km,61,238,synthetic_demo
+act-20260816-walk,2026-08-16T10:12:00+02:00,walk,13790,10204,m,132,621,synthetic_demo
+act-20260817-cycling,2026-08-17T17:40:00+02:00,cycling,420,18.4,km,58,548,synthetic_demo

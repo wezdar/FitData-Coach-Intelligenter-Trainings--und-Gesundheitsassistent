@@ -1,0 +1,24 @@
+name: Funktionswunsch
+description: Eine neue Produkt- oder Datenfunktion vorschlagen
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Welches konkrete Nutzer- oder Datenproblem soll gelöst werden?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Vorschlag
+      description: Gewünschtes Verhalten und nachvollziehbare Erfolgskriterien
+    validations:
+      required: true
+  - type: textarea
+    id: lineage
+    attributes:
+      label: Datenherkunft und Datenschutz
+      description: Betroffene Quellen, Felder, Aufbewahrung und Risiken

@@ -1,0 +1,8 @@
+timestamp,distance,distance_unit,source
+2026-08-09T23:59:00+02:00,8.35,km,synthetic_demo
+2026-08-10T23:59:00+02:00,6.10,km,synthetic_demo
+2026-08-11T23:59:00+02:00,6900,m,synthetic_demo
+2026-08-12T23:59:00+02:00,9.19,km,synthetic_demo
+2026-08-13T23:59:00+02:00,5.28,km,synthetic_demo
+2026-08-14T23:59:00+02:00,6.34,mi,synthetic_demo
+2026-08-15T08:00:00+02:00,5.06,km,synthetic_demo

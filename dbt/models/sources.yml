@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: staging_source
+    database: "{{ env_var('DBT_DATABASE', 'fitdata') }}"
+    schema: staging
+    loaded_at_field: transformed_at
+    freshness:
+      warn_after: {count: 3, period: hour}
+      error_after: {count: 8, period: hour}
+    tables:
+      - name: activities
+        description: Validated, standardized, and deduplicated activity events.
+        columns:
+          - name: activity_id
+            tests: [unique, not_null]
+          - name: activity_ts
+            tests: [not_null]
+          - name: activity_type
+            tests:
+              - accepted_values:
+                  values: [steps, walk, run, workout, cycling]
+          - name: steps
+            tests: [not_null]
+      - name: weight_measurements
+        columns:
+          - name: measurement_id
+            tests: [unique, not_null]
+          - name: weight_kg
+            tests: [not_null]

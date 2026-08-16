@@ -1,0 +1,8 @@
+timestamp,steps,source
+2026-08-09T23:59:00+02:00,11280,synthetic_demo
+2026-08-10T23:59:00+02:00,8240,synthetic_demo
+2026-08-11T23:59:00+02:00,9360,synthetic_demo
+2026-08-12T23:59:00+02:00,12420,synthetic_demo
+2026-08-13T23:59:00+02:00,7140,synthetic_demo
+2026-08-14T23:59:00+02:00,13790,synthetic_demo
+2026-08-15T08:00:00+02:00,6842,synthetic_demo

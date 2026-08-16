@@ -1,0 +1,8 @@
+timestamp,base_kcal,active_kcal,method,source
+2026-08-09,1880,480,bmr_plus_met,synthetic_demo
+2026-08-10,1880,690,bmr_plus_met,synthetic_demo
+2026-08-11,1880,520,bmr_plus_met,synthetic_demo
+2026-08-12,1880,760,bmr_plus_met,synthetic_demo
+2026-08-13,1880,410,bmr_plus_met,synthetic_demo
+2026-08-14,1880,830,bmr_plus_met,synthetic_demo
+2026-08-15,1880,538,bmr_plus_met,synthetic_demo

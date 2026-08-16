@@ -1,0 +1,28 @@
+[
+  {
+    "workout_id": "workout-20260810-lower",
+    "timestamp": "2026-08-10T18:05:00+02:00",
+    "name": "Unterkörper & Core",
+    "duration_min": 52,
+    "estimated_calories_kcal": 421,
+    "exercises": [
+      {"name": "Kniebeuge", "sets": 4, "repetitions": 8, "weight_kg": 72.5, "met": 6.0},
+      {"name": "Rumänisches Kreuzheben", "sets": 3, "repetitions": 10, "weight_kg": 62.5, "met": 6.0},
+      {"name": "Pallof Press", "sets": 3, "repetitions": 12, "weight_kg": 12.5, "met": 3.5}
+    ],
+    "source": "synthetic_demo"
+  },
+  {
+    "workout_id": "workout-20260812-upper",
+    "timestamp": "2026-08-12T07:02:00+02:00",
+    "name": "Oberkörper",
+    "duration_min": 55,
+    "estimated_calories_kcal": 447,
+    "exercises": [
+      {"name": "Bankdrücken", "sets": 4, "repetitions": 8, "weight_kg": 47.5, "met": 6.0},
+      {"name": "Rudern am Kabel", "sets": 4, "repetitions": 10, "weight_kg": 52.5, "met": 6.0},
+      {"name": "Schulterdrücken", "sets": 3, "repetitions": 9, "weight_kg": 25.0, "met": 5.5}
+    ],
+    "source": "synthetic_demo"
+  }
+]
